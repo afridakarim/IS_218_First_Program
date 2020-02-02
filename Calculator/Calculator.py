@@ -10,5 +10,9 @@ class Calculator:
 
     def mult(self, a, b):
         return a * b
+
     def div(self, a, b):
         return a/b
+
+    def root(self,a):
+        return math.sqrt(a)
