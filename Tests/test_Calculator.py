@@ -28,8 +28,13 @@ class MyTestCase(unittest.TestCase):
 
     def square_root_test(self):
         calculator = Calculator()
-        result = calculator.sub(8)
+        result = calculator.root(8)
         self.assertEqual(3,result)
+
+    def square_test(self):
+        calculator = Calculator()
+        result = calculator.square(2,2)
+        self.assertEqual(4,result)
 
 
 
