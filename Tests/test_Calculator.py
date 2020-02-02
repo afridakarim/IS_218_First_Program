@@ -11,7 +11,7 @@ class MyTestCase(unittest.TestCase):
         result = calculator.add(2,2)
         self.assertEqual(4,result)
 
-    
+
 
 
 
