@@ -19,7 +19,7 @@ class MyTestCase(unittest.TestCase):
     def multiplication_test(self):
         calculator = Calculator()
         result = calculator.sub(2,2)
-        self.assertEqual(0,result)
+        self.assertEqual(4,result)
 
 
 
