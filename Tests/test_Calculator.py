@@ -24,7 +24,12 @@ class MyTestCase(unittest.TestCase):
     def division_test(self):
         calculator = Calculator()
         result = calculator.mult(2,2)
-        self.assertEqual(4, result)
+        self.assertEqual(1, result)
+
+    def square_root_test(self):
+        calculator = Calculator()
+        result = calculator.sub(8)
+        self.assertEqual(3,result)
 
 
 
